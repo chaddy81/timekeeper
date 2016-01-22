@@ -1,0 +1,22 @@
+source 'https://rubygems.org'
+
+ruby '2.2.3'
+
+gem 'rails', '4.2.3'
+# gem 'rails-api'
+gem 'pg'
+
+gem 'oj'
+gem 'oj_mimic_json'
+
+# gem 'sdoc', '~> 0.4.0', group: :doc
+
+gem 'puma'
+
+group :development, :test do
+  gem 'byebug'
+  gem 'web-console', '~> 2.0'
+  gem 'spring'
+  gem 'rspec-rails'
+end
+
