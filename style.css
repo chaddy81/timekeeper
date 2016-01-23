@@ -11,19 +11,18 @@ body {
 	text-align: center;
 }
 
-.signUp input{
-	
+.signUp, input {
+	margin: 0 auto;
 	text-align: center;
-    background: #f5f5f5;
-    border: 1px solid #d4d4d4;
-    color: #404040;
-    font: 16px 'Open Sans',sans-serif;
-    width: 100%;
-    max-width: 315px;
-    padding: 11px 14px;
-  	border-radius: 5;
-    outline: 0;
-  }
+  background: #f5f5f5;
+  border: 1px solid #d4d4d4;
+  color: #404040;
+  font: 16px 'Open Sans',sans-serif;
+  max-width: 300px;
+  padding: 11px 14px;
+  outline: 0;
+  border-radius: 10;
+}
 
   .submit {
   	text-align: center;
