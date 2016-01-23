@@ -1,20 +1,30 @@
 body {
     margin: 0;
-    background: center top no-repeat #ededed;
+    background: center top no-repeat #020202;
     font: 300 16px/1.8 'Open Sans',sans-serif;
-    color: #494949;
+    color: #FE0E0E;
     width: 100%;
     overflow-x: hidden;
 }
 
-.signUp  {
-    
+.header {
+	text-align: center;
+}
+
+.signUp input{
+	
+	text-align: center;
     background: #f5f5f5;
     border: 1px solid #d4d4d4;
     color: #404040;
     font: 16px 'Open Sans',sans-serif;
     width: 100%;
+    max-width: 315px;
     padding: 11px 14px;
   	border-radius: 5;
     outline: 0;
+  }
+
+  .submit {
+  	text-align: center;
   }
